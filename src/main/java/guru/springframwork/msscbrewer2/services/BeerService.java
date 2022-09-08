@@ -1,11 +1,10 @@
-package guru.springframwork.msscbrewer2.service;
+package guru.springframwork.msscbrewer2.services;
 
 import guru.springframwork.msscbrewer2.web.model.BeerDto;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 
-@Service
 public interface BeerService {
     BeerDto getBeerById(UUID beerId);
 }
